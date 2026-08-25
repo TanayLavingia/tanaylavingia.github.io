@@ -1,0 +1,15 @@
+index.html
+experience.html
+projects.html
+full-portfolio.html
+404.html
+README.md
+UPLOAD-GUIDE.md
+.nojekyll
+favicon.svg
+assets/css/styles.css
+assets/js/main.js
+assets/images/profile.jpg
+assets/documents/Tanay-Lavingia-Resume.pdf
+assets/documents/Tanay-Lavingia-Portfolio.pdf
+assets/slides/page-01.png through page-36.png
