@@ -116,9 +116,10 @@ p { color: var(--muted); }
 }
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.45fr .75fr;
+  grid-template-columns: 1fr;
   align-items: center;
-  gap: 4rem;
+  gap: 0;
+}
 }
 .hero h1 { margin-bottom: .4rem; }
 .hero-title {
