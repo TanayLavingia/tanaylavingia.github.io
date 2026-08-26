@@ -353,3 +353,20 @@ p { color: var(--muted); }
   .case-study { padding: 1.2rem; }
   .case-gallery.two { grid-template-columns: 1fr; }
 }
+/* Make the entire experience and project card clickable */
+.card {
+  position: relative;
+  cursor: pointer;
+}
+
+.card-body > p:last-child a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.card:focus-within {
+  border-color: rgba(45, 212, 191, 0.8);
+  outline: 2px solid rgba(45, 212, 191, 0.35);
+  outline-offset: 3px;
+}
